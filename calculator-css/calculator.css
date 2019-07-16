@@ -4,6 +4,17 @@
     margin:3px;
     font-size: 25;
 }
-.inputs{
-    width: 20%;
+.container{
+    margin-left: 10%;
+    background-color: rgb(122, 201, 201);
+    margin-right: 60%;
+    border: 5px solid blue;
+}
+h1{
+    margin-left: 10%;
+    color: darkcyan;
+
+}
+button{
+    background-color: rgb(212, 126, 14);
 }

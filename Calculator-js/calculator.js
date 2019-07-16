@@ -21,33 +21,34 @@ var subtract = function(number1, number2) {
   // Multiplcation
 
   var multiply = function(number1, number2) {
-    return number1 + number2;
+    return number1 * number2;
   };
 
   //Division
   var divide = function(number1, number2) {
-    return number1 + number2;
+    return number1/number2;
   };
-   
+  var operator =prompt("Enter result you need for this numbers");
   switch (operator) {
-      case "sum":
+      case "addition":
       var result = add(number1, number2);
-      alert(result);
+      console.log(result);
           break;
   
-          case "difference":
-          var result = subtract(number1, number2);
-alert(result);
+          case "subtraction":
+          var result =subtract(number1, number2);
+          console.log(result);
           break;
-          case "product":
-          var result = multiply(number1, number2);
-alert(result);
+          case "multiplication":
+          var result=multiply(number1, number2);
+          console.log(result);
           break;
           case "quotient":
-          var result = divide(number1, number2);
-alert(result);
+          var result=divide(number1, number2);
+          
+          console.log(result);
           break;
-      default:
+      default: number1=0;
           break;
   }
 
